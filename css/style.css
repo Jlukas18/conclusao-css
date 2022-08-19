@@ -6,6 +6,7 @@ header {
 
 .navegacao {
   height: 64px;
+  display: flex;
 }
 
 
@@ -87,7 +88,11 @@ li {
   border: 1px solid black;
 }
 
-.aside {}
+.aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .aside-1 {
   border: 1px solid black;
