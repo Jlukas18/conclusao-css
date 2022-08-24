@@ -6,6 +6,7 @@
 }
 
 header {
+
   margin-top: 10px;
   background-color: rgb(247, 239, 229);
 }
@@ -106,20 +107,73 @@ li {
 
 .filha-2 {
   border: 1px solid black;
-  height: 300px;
+  height: 500px;
+
+}
+
+.story {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.new-post {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  height: 200px;
+}
+
+.foto-post {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.placeh-post {
+  height: 100px;
+  width: 430px;
+  margin-left: 10px;
+
+}
+
+.postagem1 {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.postagem2 {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  height: 100px;
 }
 
 .filha-3 {
   background-color: white;
   border: 1px solid black;
-  height: 500px;
+  height: 390px;
   border-radius: 4px;
 }
 
 .nima {
+  padding: 1px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nima_content {
+  display: flex;
+}
+
+.nima p,
+.nima h3 {
+  margin: 0;
+}
+
+.nima img {
+  margin: auto 12px;
 }
 
 .botao {
@@ -128,9 +182,13 @@ li {
 }
 
 .alta {
-  margin-top: 30px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 20px;
   border: 1px solid black;
   border-radius: 4px;
-  width: 310px;
-  height: 300px;
+  width: 300px;
+  height: 320px;
+  line-height: 15px;
+
 }
