@@ -107,7 +107,7 @@ li {
 
 .filha-2 {
   border: 1px solid black;
-  height: 500px;
+  height: 1000px;
 
 }
 
@@ -118,9 +118,11 @@ li {
 }
 
 .new-post {
+  background-color: white;
   margin-bottom: 20px;
-  border: 1px solid red;
-  height: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 180px;
 }
 
 .foto-post {
@@ -132,14 +134,70 @@ li {
   height: 100px;
   width: 430px;
   margin-left: 10px;
+}
 
+.post-1 {
+  display: flex;
+  margin-left: 70px
+}
+
+.btt {
+  background-color: rgb(161, 158, 158);
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 70px;
+  height: 30px;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.btt-post {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 100px;
+  height: 50px;
+  border-style: none;
+  border-radius: 4px;
 }
 
 .postagem1 {
   margin-bottom: 20px;
-  border: 1px solid red;
-  height: 100px;
 }
+
+.primeiro-post {
+  padding: 1px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.post_content {
+  display: flex;
+}
+
+.primeiro-post p,
+.primeiro-post h3 {
+  margin: 0;
+}
+
+.primeiro-post img {
+  margin: auto 12px;
+}
+
+.btt-2 {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  border-style: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+}
+
 
 .postagem2 {
   margin-bottom: 20px;
