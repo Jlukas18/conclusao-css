@@ -110,10 +110,30 @@ li {
   background-color: white;
   margin-bottom: 20px;
   height: 160px;
-  width: 500px;
-  border: 1px solid rgb(153, 148, 148);
+  width: 540px;
   border-radius: 4px;
   display: flex;
+  overflow-x: scroll;
+}
+
+.story::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+}
+
+.story::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+
+.story::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+
+.story img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .new-post {
