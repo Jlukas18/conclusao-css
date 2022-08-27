@@ -1,14 +1,13 @@
 @import url(grid.css);
 
 .navegacao {
-
   display: flex;
 }
 
 header {
-
   margin-top: 10px;
-  background-color: rgb(247, 239, 229);
+  background-color: rgb(244, 246, 252);
+  height: 1120px;
 }
 
 .nav-1 {
@@ -18,7 +17,6 @@ header {
 .nav-2 {
   padding-left: 200px;
   display: flex;
-
 }
 
 .nav-3 {
@@ -32,7 +30,6 @@ header {
   height: 40px;
   left: 695px;
   top: 8px;
-
 }
 
 .botao-icones {
@@ -43,6 +40,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: rgb(206, 206, 206);
+  margin-left: 5px;
 }
 
 .foto-icones {
@@ -95,7 +93,6 @@ li {
   margin-top: -95px;
   margin-bottom: 30px;
   padding-left: 10px;
-
 }
 
 .lista {
@@ -106,21 +103,23 @@ li {
 }
 
 .filha-2 {
-  border: 1px solid black;
   height: 1000px;
-
 }
 
 .story {
+  background-color: white;
   margin-bottom: 20px;
-  border: 1px solid red;
-  height: 100px;
+  height: 160px;
+  width: 500px;
+  border: 1px solid rgb(153, 148, 148);
+  border-radius: 4px;
+  display: flex;
 }
 
 .new-post {
+  border: 1px solid rgb(153, 148, 148);
   background-color: white;
   margin-bottom: 20px;
-  border: 1px solid black;
   border-radius: 4px;
   height: 180px;
 }
@@ -138,7 +137,8 @@ li {
 
 .post-1 {
   display: flex;
-  margin-left: 70px
+  margin-left: 70px;
+
 }
 
 .btt {
@@ -165,6 +165,10 @@ li {
 
 .postagem1 {
   margin-bottom: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid rgb(153, 148, 148);
 }
 
 .primeiro-post {
@@ -198,16 +202,30 @@ li {
   height: 30px;
 }
 
+.comentario-1 {
+  margin-left: 5px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.comentario-input {
+  width: 400px;
+  margin-left: 7px;
+  border-radius: 4px;
+}
 
 .postagem2 {
   margin-bottom: 20px;
-  border: 1px solid red;
-  height: 100px;
+  border-radius: 4px;
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid rgb(153, 148, 148);
 }
 
 .filha-3 {
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(153, 148, 148);
   height: 390px;
   border-radius: 4px;
 }
@@ -243,10 +261,9 @@ li {
   padding: 10px;
   background-color: white;
   margin-top: 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(153, 148, 148);
   border-radius: 4px;
   width: 300px;
   height: 320px;
   line-height: 15px;
-
 }
