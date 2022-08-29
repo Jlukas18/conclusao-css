@@ -24,13 +24,13 @@ header {
   display: flex;
 }
 
-
 .busca {
   width: 236px;
   height: 40px;
   left: 695px;
   top: 8px;
 }
+
 
 .botao-icones {
   width: 50px;
@@ -77,6 +77,11 @@ li {
   margin-top: 10px;
 }
 
+li:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
 .seguidores {
   border: 1px solid black;
   border-radius: 4px;
@@ -84,6 +89,7 @@ li {
   margin-left: 50px;
   padding-left: 10px;
 }
+
 
 .posts {
   border: 1px solid black;
@@ -172,6 +178,11 @@ li {
   border-radius: 4px;
 }
 
+.btt:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
 .btt-post {
   background-color: rgb(71, 71, 71);
   color: white;
@@ -181,6 +192,11 @@ li {
   height: 50px;
   border-style: none;
   border-radius: 4px;
+}
+
+.btt-post:hover {
+  background-color: cadetblue;
+  cursor: pointer;
 }
 
 .postagem1 {
@@ -220,6 +236,11 @@ li {
   border-radius: 4px;
   width: 100px;
   height: 30px;
+}
+
+.btt-2:hover {
+  background-color: cadetblue;
+  cursor: pointer;
 }
 
 .comentario-1 {
@@ -275,6 +296,11 @@ li {
 .botao {
   height: 50px;
   width: 100%;
+}
+
+.botao:hover {
+  background-color: cadetblue;
+  cursor: pointer;
 }
 
 .alta {
